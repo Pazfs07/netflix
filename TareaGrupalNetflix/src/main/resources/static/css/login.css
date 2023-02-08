@@ -1,0 +1,93 @@
+
+/* 
+    Created on : 8 feb. 2023, 17:07:40
+    Author     : Fernando
+*/
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Asap', sans-serif; /*Elegir letra*/
+}
+
+.base{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/fondoPalomitas.jpg);
+    background-position: center;
+    background-size: cover;   
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+h1{
+    color: red;
+    font-size: 80px;
+    padding: 20px 0;
+}
+
+.centrar{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    border-radius: 10px;
+}
+
+.centrar h2{
+    color: white;
+    position: absolute;
+    top: 7%;
+    left: 8%;
+    font-size: 40px;
+    padding: 20px 0;;
+}
+
+.centrar form{
+    padding: 100px 80px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 157);
+    border-radius: 10px;
+}
+
+form .entrada{
+    position: relative;
+    margin: 10px 0;
+}
+
+.entrada input{
+    position: relative;
+    border-radius: 10px;
+    width: 100%;
+    right: 50px;
+    padding: 0 50px;
+    height: 60px;
+    font-size: 16px;
+    border: none;
+    background: #393939;
+}
+
+.enviar input{
+    margin: 20px 0;
+    position: relative;
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+    width: 140%;
+    padding: 0 50px;
+    height: 60px;
+    right: 50px;
+    font-size: 20px;
+    border: none;
+    background: red;
+}
+
+a{
+    display: block; 
+    position: relative;
+    color: #999999;
+    left: 60%;
+    text-decoration: none;
+}
