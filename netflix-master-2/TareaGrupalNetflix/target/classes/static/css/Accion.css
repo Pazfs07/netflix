@@ -11,7 +11,7 @@ body {
     font-family: Arial, sans-serif;
     height: 100vh;
     width: 100%;
-    background-image: url(../images/imagen comedia.jpeg);
+    background-image: url(../images/mad.jpg);
     background-position: center;
     background-size: cover;
     box-sizing: border-box;
@@ -43,15 +43,18 @@ body {
     justify-content: space-between;
     padding: 20px;
 }
+.main a {
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    .section {
+        width: 30%;
+    }
 
-.section {
-    width: 30%;
-}
-
-.footer {
-    width: 100%;
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-}
+    .footer {
+        width: 100%;
+        background-color: #01060b;
+        color: #fff;
+        padding: 20px 0;
+        text-align: center;
+    }
